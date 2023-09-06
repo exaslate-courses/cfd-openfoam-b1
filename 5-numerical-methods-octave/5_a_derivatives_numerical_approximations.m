@@ -75,7 +75,7 @@ plot(x(2:n-1), rho_double_prime_second_order(2:n-1), '--om', 'linewidth', 2);
 legend('Analytical', 'Second order derivative', 'location', 'northwest');
 hold on;
 xlabel('x');
-ylabel('d\rho/dx=3x^2');
+ylabel('d^2\rho/dx^2=6x');
 box on;
 set(gca, "linewidth", 2, "fontsize", 16)
 hold off;
